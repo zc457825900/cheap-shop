@@ -1,7 +1,5 @@
 package com.perfect.cheapshop.dto;
 
-import com.gitee.sunchenbin.mybatis.actable.annotation.Column;
-import com.gitee.sunchenbin.mybatis.actable.constants.MySqlTypeConstant;
 import lombok.*;
 
 import java.util.Date;

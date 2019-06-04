@@ -1,15 +1,12 @@
 package com.perfect.cheapshop.web;
 
-import com.gitee.sunchenbin.mybatis.actable.manager.common.BaseMysqlCRUDManager;
-import com.perfect.cheapshop.dto.UserDTO;
-import com.perfect.cheapshop.exception.ResourceNotFoundException;
-import com.perfect.cheapshop.exception.ResourceUserInfoNotCompleteException;
 import com.perfect.cheapshop.domain.User;
-import org.springframework.beans.BeanUtils;
+import com.perfect.cheapshop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
-import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -18,24 +15,21 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private BaseMysqlCRUDManager baseMysqlCRUDManager;
+    private UserService userService;
     //private UserMapper userMapper;
 
-    @GetMapping
+   /* @GetMapping
     public List<User> getUsers(){
-        List<User> users = baseMysqlCRUDManager.query("select * from cs_user",User.class);
+        List<User> users = userService.findUser(1);
         return users;
-    }
+    }*/
 
-    @GetMapping("/{id}")
+     @GetMapping("/{id}")
     public User getUser(@PathVariable Long id){
-        User user = new User();
-        user.setId(id);
-        user = baseMysqlCRUDManager.findPrimaryBy(user);
-        return user;
+        return userService.findUser(id);
     }
 
-    @PutMapping
+    /* @PutMapping
     public User updateUser(@RequestParam UserDTO userDTO) throws Exception{
         User user = new User();
         BeanUtils.copyProperties(userDTO,user);
@@ -84,5 +78,5 @@ public class UserController {
         }else{
             throw new ResourceUserInfoNotCompleteException("用户登录信息不完整");
         }
-    }
+    }*/
 }

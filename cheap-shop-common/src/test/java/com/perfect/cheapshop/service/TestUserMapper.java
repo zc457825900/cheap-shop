@@ -1,8 +1,8 @@
-/*
 package com.perfect.cheapshop.service;
 
-import com.gitee.sunchenbin.mybatis.actable.manager.common.BaseMysqlCRUDManager;
 import com.perfect.cheapshop.domain.User;
+import com.perfect.cheapshop.mapper.UserMapper;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,15 +13,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 public class TestUserMapper {
     @Autowired
-    private BaseMysqlCRUDManager baseMysqlCRUDManager;
+    private UserMapper userMapper;
 
     @Test
     public void testGetUser(){
-        User user = new User();
-        user.setId(1L);
-        user = baseMysqlCRUDManager.findPrimaryBy(user);
-        System.out.println(user);
+       //User user = userMapper.selectById(1L);
+       // User user = userMapper.selectOne(new QueryWrapper<User>().lambda().eq(User::getId, 1));
+        User user = userMapper.selectById(1L);
+       Assert.assertNotNull(user);
+       System.out.println(user);
     }
 
 }
-*/

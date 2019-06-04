@@ -1,4 +1,6 @@
+/*
 package com.perfect.cheapshop.config;
+
 
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;
@@ -27,3 +29,4 @@ public class RedisConfig extends CachingConfigurerSupport {
         };
     }
 }
+*/

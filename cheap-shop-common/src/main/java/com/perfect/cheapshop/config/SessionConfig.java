@@ -1,3 +1,4 @@
+/*
 package com.perfect.cheapshop.config;
 
 import org.springframework.context.annotation.Configuration;
@@ -8,3 +9,4 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 public class SessionConfig {
 
 }
+*/
