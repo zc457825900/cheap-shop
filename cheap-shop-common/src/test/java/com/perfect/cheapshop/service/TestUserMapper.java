@@ -1,5 +1,8 @@
 package com.perfect.cheapshop.service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.perfect.cheapshop.domain.User;
 import com.perfect.cheapshop.enums.Gender;
 import com.perfect.cheapshop.mapper.UserMapper;
@@ -12,6 +15,9 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
@@ -71,10 +77,29 @@ public class TestUserMapper {
         user.setPassword(UPDATE_PASSWORD);
         user.setEmail(UPDATE_EMAIL);
         user.setTelphone(UPDATE_TELPHONE);
+        user.setUpdateTime(LocalDateTime.now());
         userMapper.updateById(user);
         Assert.assertEquals(user.getUsername(),UPDATE_USERNAME);
         Assert.assertEquals(user.getPassword(),UPDATE_PASSWORD);
         Assert.assertEquals(user.getEmail(),UPDATE_EMAIL);
         Assert.assertEquals(user.getTelphone(),UPDATE_TELPHONE);
+    }
+
+    @Test
+    public void testFindUserList(){
+        Map<String,Object> map = new HashMap<String,Object>();
+        map.put("nick_name","大白");
+        List<User> list = userMapper.selectByMap(map);
+        Assert.assertNotNull(list);
+    }
+
+    @Test
+    public void testFindUserPage(){
+        QueryWrapper<User> queryWrapper =  new QueryWrapper<>();
+        queryWrapper.orderByAsc("id");
+        IPage<User> page = new Page(2L,1L);
+        page = userMapper.selectPage(page,queryWrapper);
+        List<User> list = page.getRecords();
+        Assert.assertNotNull(list);
     }
 }
