@@ -1,4 +1,3 @@
-/*
 package com.perfect.cheapshop.config;
 
 
@@ -29,4 +28,3 @@ public class RedisConfig extends CachingConfigurerSupport {
         };
     }
 }
-*/
