@@ -18,7 +18,6 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-    //private UserMapper userMapper;
 
     @GetMapping
     public List<User> getUsers(){
@@ -71,5 +70,11 @@ public class UserController {
             throw new ResourceUserInfoNotCompleteException("用户登录信息不完整");
         }
         return user;
+    }
+
+    public static void main(String[] args) {
+        int arr[] ={2,3,1,0,2,5,3};
+        int i=0,j=0,mark = 0;
+        for()
     }
 }
