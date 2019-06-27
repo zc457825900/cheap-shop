@@ -3,10 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
+        <!--<groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.0.M3</version>
-        <relativePath/> <!-- lookup parent from service -->
+        <relativePath/> --><!-- lookup parent from service -->
+        <groupId>com.perfect.cheapshop</groupId>
+        <artifactId>cheap-shop</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.perfect.cheapshop</groupId>
     <artifactId>cheap-shop-server</artifactId>
@@ -14,10 +17,10 @@
     <name>cheap-shop-server</name>
     <description>Cheap Shop Server</description>
 
-    <properties>
+    <!--<properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.BUILD-SNAPSHOT</spring-cloud.version>
-    </properties>
+    </properties>-->
 
     <dependencies>
         <dependency>
@@ -28,10 +31,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
@@ -54,6 +57,7 @@
         </dependency>
     </dependencies>
 
+<!--
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -105,5 +109,6 @@
             <url>https://repo.spring.io/milestone</url>
         </pluginRepository>
     </pluginRepositories>
+-->
 
 </project>
