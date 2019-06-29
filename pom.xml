@@ -39,6 +39,7 @@
         <!--
                 <dms-common.version>0.0.1-SNAPSHOT</dms-common.version>
         -->
+        <mybatis.version>3.1.2</mybatis.version>
     </properties>
 
 
@@ -93,7 +94,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.1.1</version>
+            <version>${mybatis.version}</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -108,6 +109,18 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-typehandlers-jsr310</artifactId>
             <version>1.0.1</version>
+        </dependency>
+        <!--添加 代码生成器 依赖-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+        <!--添加 模板引擎 依赖Velocity（默认）-->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>2.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
