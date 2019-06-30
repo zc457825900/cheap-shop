@@ -1,7 +1,7 @@
 package com.perfect.cheapshop.service;
 
-import com.perfect.cheapshop.domain.CsShopAddress;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.perfect.cheapshop.domain.CsShopAddress;
 
 /**
  * <p>

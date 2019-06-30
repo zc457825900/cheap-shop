@@ -11,6 +11,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author zhangcheng
  * @since 2019-06-29
  */
+
+
 public interface CsShopAdminMapper extends BaseMapper<CsShopAdmin> {
 
 }

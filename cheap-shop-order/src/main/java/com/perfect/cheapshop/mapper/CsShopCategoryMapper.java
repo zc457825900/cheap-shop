@@ -2,6 +2,7 @@ package com.perfect.cheapshop.mapper;
 
 import com.perfect.cheapshop.domain.CsShopCategory;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>

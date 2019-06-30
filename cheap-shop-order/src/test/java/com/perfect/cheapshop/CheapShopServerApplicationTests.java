@@ -1,4 +1,3 @@
-/*
 package com.perfect.cheapshop;
 
 import org.junit.Test;
@@ -15,4 +14,3 @@ public class CheapShopServerApplicationTests {
     }
 
 }
-*/

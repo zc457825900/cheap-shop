@@ -1,8 +1,11 @@
 package com.perfect.cheapshop.domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -31,32 +34,38 @@ public class CsShopAdmin implements Serializable {
     /**
      * 管理员账号
      */
+    @TableField(value = "adminuser")
     private String adminuser;
 
     /**
      * 管理员密码
      */
+    @TableField(value = "adminpass")
     private String adminpass;
 
     /**
      * 管理员电子邮箱
      */
+    @TableField(value = "adminemail")
     private String adminemail;
 
     /**
      * 登陆时间
      */
+    @TableField(value = "logintime")
     private Integer logintime;
 
     /**
      * 登陆IP
      */
+    @TableField(value = "loginip")
     private Long loginip;
 
     /**
      * 创建时间
      */
-    private Integer createtime;
+    @TableField(value = "createtime")
+    private LocalDateTime createtime;
 
 
 }

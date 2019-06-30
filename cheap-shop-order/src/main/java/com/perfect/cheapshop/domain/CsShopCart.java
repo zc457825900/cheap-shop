@@ -2,8 +2,11 @@ package com.perfect.cheapshop.domain;
 
 import java.math.BigDecimal;
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -32,27 +35,32 @@ public class CsShopCart implements Serializable {
     /**
      * 商品id
      */
+    @TableField(value = "productid")
     private Long productid;
 
     /**
      * 用户id
      */
+    @TableField(value = "userid")
     private Long userid;
 
     /**
      * 加入购物车的商品数量
      */
+    @TableField(value = "productnum")
     private Integer productnum;
 
     /**
      * 加入购物车时的商品价格
      */
+    @TableField(value = "price")
     private BigDecimal price;
 
     /**
      * 创建时间
      */
-    private Integer createtime;
+    @TableField(value = "createtime")
+    private LocalDateTime createtime;
 
 
 }

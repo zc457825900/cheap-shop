@@ -1,0 +1,73 @@
+package ${package.Entity};
+
+    #foreach($pkg in ${table.importPackages})
+    import ${pkg};
+    #end
+    #if(${swagger2})
+    import io.swagger.annotations.ApiModel;
+    import io.swagger.annotations.ApiModelProperty;
+    #end
+    #if(${entityLombokModel})
+    import lombok.Data;
+    #end
+import com.baomidou.mybatisplus.annotation.KeySequence;
+import com.baomidou.mybatisplus.annotation.FieldFill;
+
+## 表备注，作者，日期
+/**
+ * $!{table.comment}
+ * @author ${author}
+ * @since ${date}
+ */
+## 使用lombok
+#if(${entityLombokModel})
+@Data
+#end
+## 有NamingStrategy为true
+#if(${table.convert})
+@TableName("${table.name}")
+#end
+## 用的oracle需要KeySequence
+##@KeySequence(value = "${table.name}_SEQ")
+## swagger2
+#if(${swagger2})
+@ApiModel(value="${entity}对象")
+#end
+public class ${entity} implements Serializable {
+
+## ----------  BEGIN 字段循环遍历  ----------
+#foreach($field in ${table.fields})
+## 主键策略
+    #if(${field.keyFlag})
+        #if(${field.keyIdentityFlag})
+        @TableId(value = "${field.name}", type = IdType.AUTO)
+        #elseif(!$null.isNull(${idType}) && "$!idType" != "")
+        @TableId(value = "${field.name}", type = IdType.${idType})
+        #elseif(${field.convert})
+        @TableId("${field.name}")
+        #end
+    #end
+## 自动填充
+    #if(${field.propertyName} == "dataUpdatedate")
+    @TableField(fill = FieldFill.UPDATE)
+    #end
+## swagger2字段api
+    #if("$!field.comment" != "")
+        #if(${swagger2})
+            #if(${field.propertyType} == "Long" || ${field.propertyType} == "Integer")
+                #if(${field.keyFlag})
+                @ApiModelProperty(value = "${field.comment},新增不传",example="1")
+                #else
+                @ApiModelProperty(value = "${field.comment}",example="1")
+                #end
+            #else
+            @ApiModelProperty(value = "${field.comment}")
+            #end
+        #end
+    #end
+private ${field.propertyType} ${field.propertyName};
+
+#end
+## ----------  END 字段循环遍历  ----------
+## ---------- 使用的lombok,所以后面的get/set都不要 ---------------
+}

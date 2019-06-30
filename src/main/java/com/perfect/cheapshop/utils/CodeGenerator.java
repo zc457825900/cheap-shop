@@ -6,8 +6,8 @@ import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
 import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
+import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 import org.apache.commons.lang.StringUtils;
 
 import java.util.ArrayList;
@@ -46,6 +46,8 @@ public class CodeGenerator {
         gc.setOutputDir(projectPath + "/cheap-shop-order/src/main/java");
         gc.setAuthor("zhangcheng");
         gc.setOpen(false);
+        // 设置时间类型使用哪个包下的
+        gc.setDateType(DateType.ONLY_DATE);
         // gc.setSwagger2(true); 实体属性 Swagger2 注解
         mpg.setGlobalConfig(gc);
 

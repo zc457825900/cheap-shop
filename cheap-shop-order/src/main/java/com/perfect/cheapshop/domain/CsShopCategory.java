@@ -1,8 +1,11 @@
 package com.perfect.cheapshop.domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -31,17 +34,20 @@ public class CsShopCategory implements Serializable {
     /**
      * 标题
      */
+    @TableField(value = "title")
     private String title;
 
     /**
      * 父级id
      */
+    @TableField(value = "parentid")
     private Long parentid;
 
     /**
      * 创建时间
      */
-    private Integer createtime;
+    @TableField(value = "createtime")
+    private LocalDateTime createtime;
 
 
 }

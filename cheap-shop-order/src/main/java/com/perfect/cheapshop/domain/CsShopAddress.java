@@ -1,8 +1,11 @@
 package com.perfect.cheapshop.domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -31,47 +34,56 @@ public class CsShopAddress implements Serializable {
     /**
      * 姓
      */
+    @TableField(value = "firstname")
     private String firstname;
 
     /**
      * 名
      */
+    @TableField(value = "lastname")
     private String lastname;
 
     /**
      * 公司
      */
+    @TableField(value = "company")
     private String company;
 
     /**
      * 详细地址
      */
+    @TableField(value = "address")
     private String address;
 
     /**
      * 邮编
      */
+    @TableField(value = "postcode")
     private String postcode;
 
     /**
      * 邮箱
      */
+    @TableField(value = "email")
     private String email;
 
     /**
      * 电话
      */
+    @TableField(value = "telephone")
     private String telephone;
 
     /**
      * 用户id
      */
+    @TableField(value = "userid")
     private Long userid;
 
     /**
      * 创建时间
      */
-    private Integer createtime;
+    @TableField(value = "createtime")
+    private LocalDateTime createtime;
 
 
 }

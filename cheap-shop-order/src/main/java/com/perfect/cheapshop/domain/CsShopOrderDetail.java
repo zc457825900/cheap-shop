@@ -2,6 +2,7 @@ package com.perfect.cheapshop.domain;
 
 import java.math.BigDecimal;
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import lombok.Data;
@@ -32,26 +33,31 @@ public class CsShopOrderDetail implements Serializable {
     /**
      * 订单id
      */
+    @TableField(value = "orderid")
     private Long orderid;
 
     /**
      * 商品id
      */
+    @TableField(value = "productid")
     private Long productid;
 
     /**
      * 商品价格
      */
+    @TableField(value = "price")
     private BigDecimal price;
 
     /**
      * 商品数量
      */
+    @TableField(value = "productnum")
     private Integer productnum;
 
     /**
      * 创建时间
      */
+    @TableField(value = "createtime")
     private Integer createtime;
 
 

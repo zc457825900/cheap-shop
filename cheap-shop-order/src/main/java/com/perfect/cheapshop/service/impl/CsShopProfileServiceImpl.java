@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
  * @author zhangcheng
  * @since 2019-06-29
  */
+
 @Service
 public class CsShopProfileServiceImpl extends ServiceImpl<CsShopProfileMapper, CsShopProfile> implements ICsShopProfileService {
 

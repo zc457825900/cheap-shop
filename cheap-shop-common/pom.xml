@@ -105,7 +105,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
+   <!-- <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -160,5 +160,5 @@
             <name>Spring Milestones</name>
             <url>https://repo.spring.io/milestone</url>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories>-->
 </project>
