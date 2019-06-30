@@ -27,3 +27,6 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+.idea/workspace.xml
+cheap-shop-config/.gitignore
+cheap-shop-config/src/main/resources/application.yml
