@@ -2,6 +2,7 @@ package com.perfect.cheapshop.mapper;
 
 import com.perfect.cheapshop.domain.CsShopAdmin;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -13,6 +14,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 
 
+@Mapper
 public interface CsShopAdminMapper extends BaseMapper<CsShopAdmin> {
 
 }

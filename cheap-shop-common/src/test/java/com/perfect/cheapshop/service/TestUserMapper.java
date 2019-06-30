@@ -1,3 +1,4 @@
+/*
 package com.perfect.cheapshop.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -60,14 +61,16 @@ public class TestUserMapper {
         Assert.assertNotNull(user);
     }
 
-   /* @Test
+   */
+/* @Test
     public void testDeleteUser(){
         User user = userMapper.selectById(2L);
         Assert.assertNotNull(user);
         userMapper.deleteById(2L);
         user = userMapper.selectById(2L);
         Assert.assertNull(user);
-    }*/
+    }*//*
+
 
     @Test
     public void testUpdateUser(){
@@ -103,3 +106,4 @@ public class TestUserMapper {
         Assert.assertNotNull(list);
     }
 }
+*/

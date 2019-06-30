@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2019-06-29
  */
 
+
 @Service
 public class CsShopAdminServiceImpl extends ServiceImpl<CsShopAdminMapper, CsShopAdmin> implements ICsShopAdminService {
 

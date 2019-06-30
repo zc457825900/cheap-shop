@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/cheap-shop-common/pom.xml" />
         <option value="$PROJECT_DIR$/cheap-shop-server/pom.xml" />
         <option value="$PROJECT_DIR$/cheap-shop-order/pom.xml" />
+        <option value="$PROJECT_DIR$/cheap-shop-config/pom.xml" />
       </list>
     </option>
   </component>

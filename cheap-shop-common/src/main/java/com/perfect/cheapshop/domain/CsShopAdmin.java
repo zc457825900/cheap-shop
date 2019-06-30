@@ -3,12 +3,11 @@ package com.perfect.cheapshop.domain;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.*;
+
 import java.io.Serializable;
 import java.time.LocalDateTime;
-
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.experimental.Accessors;
 
 /**
  * <p>
@@ -19,8 +18,11 @@ import lombok.experimental.Accessors;
  * @since 2019-06-29
  */
 @Data
-@EqualsAndHashCode(callSuper = false)
-@Accessors(chain = true)
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+@EqualsAndHashCode
+@TableName("cs_shop_admin")
 public class CsShopAdmin implements Serializable {
 
     private static final long serialVersionUID=1L;

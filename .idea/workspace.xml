@@ -2,79 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c3e056-e130-467c-bf7f-3b2b1a4c0f00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/dto/CsShopAdminDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/dto/CsShopProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-order/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-config/src/test/java/com/perfect/cheapshop/CheapShopServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cheap-shop-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/test/java/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/CheapShopCommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/CheapShopCommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/CheapShopCommonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/CheapShopCommonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cheap-shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopAddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopAddressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCartMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderDetailMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProfileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProfileMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopAddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/CsShopAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopCartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderDetailController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopAddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/ICsShopAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopCartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopCategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopOrderDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopOrderDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopProfileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopAddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopCartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopProfileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopProfileServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopAdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopCartMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopOrderDetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/mapper/order/CsShopProfileMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/test/java/com/perfect/cheapshop/CheapShopServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/test/java/com/perfect/cheapshop/CheapShopServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/perfect/cheapshop/utils/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perfect/cheapshop/utils/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/perfect/cheapshop/utils/CodeGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/perfect/cheapshop/utils/CodeGenerator$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/perfect/cheapshop/utils/CodeGenerator.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cheap-shop-common/target/" />
     <ignored path="$PROJECT_DIR$/cheap-shop-server/target/" />
     <ignored path="$PROJECT_DIR$/cheap-shop-order/target/" />
+    <ignored path="$PROJECT_DIR$/cheap-shop-config/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,27 +67,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopAddressController.java">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="68" column="5" selection-start-line="25" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
-              <folding>
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopCartController.java">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="67" column="5" selection-start-line="24" selection-start-column="3" selection-end-line="67" selection-end-column="5" />
-              <folding>
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-209">
+              <caret line="20" column="21" selection-start-line="17" selection-start-column="7" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -129,30 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cheap-shop-order/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-516">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="67" column="5" selection-start-line="24" selection-start-column="2" selection-end-line="67" selection-end-column="5" />
-              <folding>
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            <state relative-caret-position="76">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -160,57 +123,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="70" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="152">
+              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProfileController.java">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/resources/application-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-              <folding>
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1577">
+              <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderDetailController.java">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding>
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="61" column="37" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="95">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -252,10 +197,12 @@
       <find>pCart</find>
       <find>@TableField\(.*</find>
       <find>Cart</find>
-      <find>CsShopProduct</find>
       <find>Address</find>
       <find>Order</find>
       <find>Product</find>
+      <find>CsShopProduct</find>
+      <find>runtime</find>
+      <find>User</find>
     </findStrings>
     <replaceStrings>
       <replace>\b\r\b\r\b\r</replace>
@@ -265,10 +212,11 @@
       <replace>\b\r</replace>
       <replace>Category</replace>
       <replace>Cart</replace>
-      <replace>CsShopAddress</replace>
       <replace>Order</replace>
       <replace>OrderDetail</replace>
       <replace>Profile</replace>
+      <replace>CsShopAddress</replace>
+      <replace>CsShopProduct</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -279,39 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/test/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/SessionConfig.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/pom.xml" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/CsShopCartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/dto/CsShopAdminDTO.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/CsShopAdminController.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopAddress.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCart.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopCategory.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrder.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrderDetail.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopProfile.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopProfileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopCategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopAddressServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/UserService.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProfileMapper.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProductMapper.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderMapper.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderDetailMapper.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCategoryMapper.java" />
         <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCartMapper.java" />
         <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopAddressMapper.java" />
         <option value="$PROJECT_DIR$/cheap-shop-order/src/test/java/com/perfect/cheapshop/service/ICsShopProductServiceTest.java" />
@@ -328,8 +243,41 @@
         <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderController.java" />
         <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProfileController.java" />
         <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderDetailController.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-order/pom.xml" />
         <option value="$PROJECT_DIR$/cheap-shop-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cheap-shop-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopServerApplication.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopConfigApplication.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/CheapShopCommonApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/User.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/test/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/UserService.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/UserController.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/CsShopAdminController.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/ICsShopAdminService.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/SessionConfig.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/CheapShopCommonApplication.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-order/pom.xml" />
+        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java" />
+        <option value="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml" />
       </list>
     </option>
   </component>
@@ -342,25 +290,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cheap-shop-order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cheap-shop-order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="252" />
-    <option name="y" value="-15" />
+    <option name="x" value="-117" />
+    <option name="y" value="1" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -368,8 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -401,206 +337,14 @@
               <item name="cheap-shop-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cheapshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="cheap-shop-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,33 +355,33 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/dto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cheap-shop-order/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3562189" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.perfect.cheapshop" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-order\src\main\java\com\perfect\cheapshop\dto" />
-      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-order\src\main\java\com\perfect\cheapshop\domain" />
-      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-order\src\test\java\resources" />
-      <recent name="E:\IdeaProjects\cheap-shop" />
-      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-order\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.perfect.cheapshop.config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-common\src\test\resources" />
       <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-common\src\main\java\com\perfect\cheapshop\service\impl" />
       <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-common\src\main\java\com\perfect\cheapshop\service" />
       <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-common\src\test" />
       <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-order\src\test" />
-      <recent name="E:\IdeaProjects\cheap-shop\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.perfect.cheapshop" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.perfect.cheapshop.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-order\src\main\resources" />
+      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-common\src\main\resources" />
+      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-common\src\test\resources" />
+      <recent name="E:\IdeaProjects\cheap-shop" />
+      <recent name="E:\IdeaProjects\cheap-shop\cheap-shop-order\src\main\java\com\perfect\cheapshop\dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -652,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ICsShopProductServiceTest.getOne">
+  <component name="RunManager" selected="Spring Boot.CheapShopOrderApplication (1)">
     <configuration name="ICsShopProductServiceTest.addCsShopProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cheap-shop-order" />
       <extension name="coverage">
@@ -717,25 +461,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUserMapper.testFindUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheapShopCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cheap-shop-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.perfect.cheapshop.service.ICsShopProductServiceTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.perfect.cheapshop.service" />
-      <option name="MAIN_CLASS_NAME" value="com.perfect.cheapshop.service.TestUserMapper" />
-      <option name="METHOD_NAME" value="testFindUser" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfect.cheapshop.CheapShopCommonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheapShopCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cheap-shop-common" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfect.cheapshop.CheapShopCommonApplication" />
+    <configuration name="CheapShopConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cheap-shop-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfect.cheapshop.CheapShopConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheapShopConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cheap-shop-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.perfect.cheapshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.perfect.cheapshop.CheapShopConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -770,23 +518,24 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ICsShopProductServiceTest.addCsShopProduct" />
-      <item itemvalue="JUnit.TestUserMapper.testFindUser" />
+      <item itemvalue="JUnit.ICsShopProductServiceTest.findOne" />
+      <item itemvalue="JUnit.ICsShopProductServiceTest.deleteOne" />
+      <item itemvalue="JUnit.ICsShopProductServiceTest.getOne" />
       <item itemvalue="Spring Boot.CheapShopServerApplication" />
       <item itemvalue="Spring Boot.CheapShopOrderApplication" />
       <item itemvalue="Spring Boot.CheapShopCommonApplication" />
       <item itemvalue="Spring Boot.CheapShopOrderApplication (1)" />
       <item itemvalue="Spring Boot.CheapShopServerApplication (1)" />
-      <item itemvalue="JUnit.ICsShopProductServiceTest.findOne" />
-      <item itemvalue="JUnit.ICsShopProductServiceTest.deleteOne" />
-      <item itemvalue="JUnit.ICsShopProductServiceTest.getOne" />
+      <item itemvalue="Spring Boot.CheapShopConfigApplication" />
+      <item itemvalue="Spring Boot.CheapShopConfigApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CheapShopConfigApplication" />
         <item itemvalue="JUnit.ICsShopProductServiceTest.getOne" />
         <item itemvalue="JUnit.ICsShopProductServiceTest.deleteOne" />
         <item itemvalue="JUnit.ICsShopProductServiceTest.addCsShopProduct" />
         <item itemvalue="JUnit.ICsShopProductServiceTest.findOne" />
-        <item itemvalue="JUnit.TestUserMapper.testFindUser" />
       </list>
     </recent_temporary>
   </component>
@@ -825,7 +574,8 @@
       <workItem from="1561743086395" duration="2588000" />
       <workItem from="1561773303031" duration="22099000" />
       <workItem from="1561814137673" duration="12791000" />
-      <workItem from="1561860151805" duration="4442000" />
+      <workItem from="1561860151805" duration="9348000" />
+      <workItem from="1561875779590" duration="8900000" />
     </task>
     <servers />
   </component>
@@ -862,7 +612,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118136000" />
+    <option name="totallyTimeSpent" value="131942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,7 +637,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3797054" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8313162" visible="true" weight="0.43371522" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8313162" weight="0.5220949" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.48772505" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -895,7 +645,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49621785" weight="0.44517186" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" weight="0.44517186" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4969743" visible="true" weight="0.44517186" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.59247136" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32733223" />
@@ -905,7 +655,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.2375189" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3214826" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
@@ -1055,322 +805,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/dto/CsShopAdminDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopCartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/ICsShopAdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/CsShopAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="85" column="37" selection-start-line="85" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopOrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="112" column="37" lean-forward="true" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/domain/CsShopProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopProfileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopOrderDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/test/java/com/perfect/cheapshop/CheapShopServerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProfileMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopOrderDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopCartMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/mapper/CsShopAddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/test/java/com/perfect/cheapshop/service/ICsShopProductServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="70" column="68" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/ICsShopOrderDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopAddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/dto/CsShopOrderDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/dto/CsShopOrderDetailDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/dto/CsShopCartDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/dto/CsShopAddressDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/dto/CsShopProfileDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1453,29 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="70" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding>
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopOrderDetailController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -1487,17 +898,342 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-order/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/dto/CsShopCartDTO.java" />
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProfileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="608">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding>
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cheap-shop-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="-388">
           <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/test/java/com/perfect/cheapshop/service/ICsShopProductServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/CheapShopCommonApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="4" column="35" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="47" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/test/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/web/CsShopAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="43" lean-forward="true" selection-end-line="77" />
+          <folding>
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/ICsShopAdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="3" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="13" column="13" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/config/SessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/CheapShopCommonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/service/impl/CsShopAddressServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="20" column="21" selection-start-line="17" selection-start-column="7" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <folding>
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1554,7 +1290,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cheap-shop-order</last-edited>
+          <last-edited>cheap-shop-config</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

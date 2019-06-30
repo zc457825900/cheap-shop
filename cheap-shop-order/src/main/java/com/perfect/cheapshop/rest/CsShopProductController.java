@@ -4,11 +4,9 @@ package com.perfect.cheapshop.rest;
 import com.perfect.cheapshop.domain.CsShopProduct;
 import com.perfect.cheapshop.dto.CsShopProductDTO;
 import com.perfect.cheapshop.service.ICsShopProductService;
-import org.apache.commons.configuration.beanutils.BeanHelper;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -29,18 +27,18 @@ public class CsShopProductController {
     private ICsShopProductService iCsShopProductService;
 
     @GetMapping
-    public List<CsShopProduct> getUsers(){
+    public List<CsShopProduct> getCsShopProducts(){
         List<CsShopProduct> users = iCsShopProductService.list(null);
         return users;
     }
 
     @GetMapping("/{id}")
-    public CsShopProduct getUser(@PathVariable Long id){
+    public CsShopProduct getCsShopProduct(@PathVariable Long id){
         return iCsShopProductService.getById(id);
     }
 
     @PutMapping
-    public CsShopProduct updateUser(@RequestParam CsShopProductDTO csShopProductDTO) throws Exception{
+    public CsShopProduct updateCsShopProduct(@RequestParam CsShopProductDTO csShopProductDTO) throws Exception{
         if(StringUtils.isEmpty(csShopProductDTO.getProductid().toString())){
             throw new Exception("Id不能为空");
         }
@@ -51,7 +49,7 @@ public class CsShopProductController {
     }
 
     @PostMapping
-    public CsShopProduct createUser(@RequestParam CsShopProductDTO csShopProductDTO)throws Exception{
+    public CsShopProduct createCsShopProduct(@RequestParam CsShopProductDTO csShopProductDTO)throws Exception{
         if(!StringUtils.isEmpty( csShopProductDTO.getProductid().toString())){
             throw new Exception("Id不能存在");
         }
@@ -62,7 +60,7 @@ public class CsShopProductController {
     }
 
     @DeleteMapping("/{id}")
-    public String deleteUser(@PathVariable Long id)throws Exception{
+    public String deleteCsShopProduct(@PathVariable Long id)throws Exception{
         if(!StringUtils.isEmpty(id.toString())){
             throw new Exception("Id不能为空");
         }

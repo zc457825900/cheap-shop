@@ -13,9 +13,6 @@
     <artifactId>cheap-shop</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-  <!--  <modules>
-        <module>cheap-shop-common</module>
-    </modules>-->
     <!-- 引入spring boot的依赖 -->
     <parent>
         <groupId>org.springframework.boot</groupId>

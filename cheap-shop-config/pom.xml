@@ -8,31 +8,33 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.perfect.cheapshop</groupId>
-    <artifactId>cheap-shop-order</artifactId>
+    <artifactId>cheap-shop-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cheap-shop-order</name>
-    <description>Cheap Shop Server</description>
+    <name>cheap-shop-config</name>
+    <description>Cheap Shop Config</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -40,7 +42,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 
 </project>

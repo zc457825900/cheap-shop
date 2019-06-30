@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cheap-shop-server" />
         <module name="cheap-shop-order" />
+        <module name="cheap-shop-config" />
         <module name="cheap-shop-common" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cheap-shop" options="-parameters" />
       <module name="cheap-shop-common" options="-parameters" />
+      <module name="cheap-shop-config" options="-parameters" />
       <module name="cheap-shop-order" options="-parameters" />
       <module name="cheap-shop-server" options="-parameters" />
     </option>
