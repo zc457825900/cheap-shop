@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c3e056-e130-467c-bf7f-3b2b1a4c0f00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-config/src/test/java/com/perfect/cheapshop/CheapShopServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/CheapShopCommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/CheapShopCommonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/domain/CsShopAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/CsShopAdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/service/impl/CsShopAdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/CheapShopCommonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/CheapShopCommonApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/CheapShopOrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,19 +54,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-order/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="114">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="114">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -142,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+            <state relative-caret-position="80">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -248,7 +217,6 @@
         <option value="$PROJECT_DIR$/cheap-shop-config/pom.xml" />
         <option value="$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopServerApplication.java" />
         <option value="$PROJECT_DIR$/cheap-shop-config/src/main/java/com/perfect/cheapshop/CheapShopConfigApplication.java" />
-        <option value="$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cheap-shop-common/src/test/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/CheapShopCommonApplicationTests.java" />
         <option value="$PROJECT_DIR$/cheap-shop-common/src/test/java/com/perfect/cheapshop/service/TestUserMapper.java" />
@@ -278,6 +246,7 @@
         <option value="$PROJECT_DIR$/cheap-shop-order/src/main/java/com/perfect/cheapshop/rest/CsShopProductController.java" />
         <option value="$PROJECT_DIR$/cheap-shop-order/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -338,6 +307,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="cheap-shop-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="cheap-shop-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="cheap-shop-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="cheap-shop-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cheap-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cheap-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="cheap-shop-config" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -575,7 +576,7 @@
       <workItem from="1561773303031" duration="22099000" />
       <workItem from="1561814137673" duration="12791000" />
       <workItem from="1561860151805" duration="9348000" />
-      <workItem from="1561875779590" duration="8900000" />
+      <workItem from="1561875779590" duration="9121000" />
     </task>
     <servers />
   </component>
@@ -612,7 +613,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131942000" />
+    <option name="totallyTimeSpent" value="132163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1002,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/java/com/perfect/cheapshop/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1170,13 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1232,8 +1219,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/application-test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+        <state relative-caret-position="80">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-common/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheap-shop-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
