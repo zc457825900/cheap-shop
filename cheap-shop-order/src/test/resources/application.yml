@@ -1,28 +1,45 @@
-server:
-  port: 8003
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8000/eureka/
-
+#mybatis:
+#type-aliases-package: com.perfect.cheapshop.domain
 
 # MP 配置
-mybatis-plus:
-  configuration:
-    # 3.0.8之前版本问题默认将枚举注册为EnumOrdinalTypeHandler,这是错误的方式,默认是 org.apache.ibatis.type.EnumTypeHandler
-    # 如果项目之中实体统一使用IEnum或注解的方式,可配置成 com.baomidou.mybatisplus.extension.handlers.EnumTypeHandler,也可省略上面的type-enums-package配置
-    # 配置type-enums-package只对注解方式的枚举处理能提前加载缓存.
-    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+# mybatis-plus:
+#   type-enums-package: com.perfect.cheapshop.enums
+#   configuration:
+#   # 3.0.8之前版本问题默认将枚举注册为EnumOrdinalTypeHandler,这是错误的方式,默认是 org.apache.ibatis.type.EnumTypeHandler
+#   # 如果项目之中实体统一使用IEnum或注解的方式,可配置成 com.baomidou.mybatisplus.extension.handlers.EnumTypeHandler,也可省略上面的type-enums-package配置
+#   # 配置type-enums-package只对注解方式的枚举处理能提前加载缓存.
+#     default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
 # Logger Config
 logging:
   level:
     com.baomidou.mybatisplus.samples: debug
-
 # MyBatis-Plus 配置该演示无
 # 使用druid数据源
 spring:
   application:
-    name: spring-cloud-order
+    name: cheap-shop-order
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: zhangcheng
+    password: 123456
+    virtual-host: /
+    connection-timeout: 15000
+    listener:
+      simple:
+        acknowledge-mode: manual
+        concurrency: 5
+        max-concurrency: 10
+      order:
+        queue:
+          name: order_queue
+          durable: true
+        exchange:
+          name: order_exchange
+          durable: true
+          type: direct
+          ignoreDeclarationExceptions: true
+        key: direct.order
   datasource:
     url: jdbc:mysql://localhost:3306/cheapshop?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
@@ -61,3 +78,29 @@ spring:
     # 打开PSCache，并且指定每个连接上PSCache的大小
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
+
+###################RADIS###########################
+# redis:
+#   database: 0
+#   host: localhost
+#   port: 6379
+#   password:
+#   lettuce:
+#     pool:
+#       max-active: 8
+#       max-wait: -1
+#       max-idle: 8
+#       min-idle: 0
+
+server:
+ port: 8001
+ tomcat:
+   uri-encoding: UTF-8
+ servlet:
+   session:
+     timeout: 10
+
+# eureka:
+#   client:
+#     serviceUrl:
+#       defaultZone: http://localhost:8000/eureka/

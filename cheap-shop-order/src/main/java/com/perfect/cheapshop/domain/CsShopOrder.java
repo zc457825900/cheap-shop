@@ -29,7 +29,7 @@ public class CsShopOrder implements Serializable {
     /**
      * 订单id
      */
-    @TableId(value = "orderid", type = IdType.AUTO)
+    @TableId(value = "orderid", type = IdType.UUID)
     private String orderid;
 
     /**

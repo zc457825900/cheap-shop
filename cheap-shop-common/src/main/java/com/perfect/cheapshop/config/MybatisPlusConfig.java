@@ -27,7 +27,7 @@ public class MybatisPlusConfig {
         return new PaginationInterceptor();
     }
 
-    @Bean(name = "dataSource")
+    /*@Bean(name = "dataSource")
     public DataSource dataSource() {
 
         DruidDataSource dataSource = new DruidDataSource();
@@ -45,5 +45,5 @@ public class MybatisPlusConfig {
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource());
         return sqlSessionFactoryBean.getObject();
-    }
+    }*/
 }

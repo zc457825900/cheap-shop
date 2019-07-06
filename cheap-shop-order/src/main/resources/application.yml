@@ -1,7 +1,8 @@
 spring:
   application:
     name: cheap-shop-order
-
+  profiles:
+    actives: test
 server:
   port: 8001
   tomcat:

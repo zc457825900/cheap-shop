@@ -1,7 +1,18 @@
+#spring:
+#  cloud:
+#    config:
+#      name: order
+#      profile: prod
+#      uri: http://localhost:8012/
+#      label: master
 spring:
-  cloud:
-    config:
-      name: order
-      profile: prod
-      uri: http://localhost:8012/
-      label: master
+  profiles:
+    actives: test
+
+server:
+  port: 8001
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    session:
+      timeout: 10

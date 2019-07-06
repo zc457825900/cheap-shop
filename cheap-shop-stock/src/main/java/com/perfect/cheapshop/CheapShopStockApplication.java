@@ -2,14 +2,13 @@ package com.perfect.cheapshop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
 
 @SpringBootApplication
-//@EnableEurekaClient
-public class CheapShopOrderApplication {
+public class CheapShopStockApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CheapShopOrderApplication.class, args);
+        SpringApplication.run(CheapShopStockApplication.class, args);
     }
 
 }

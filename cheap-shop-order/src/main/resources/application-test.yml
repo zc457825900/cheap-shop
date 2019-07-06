@@ -18,6 +18,17 @@ logging:
 spring:
   application:
     name: cheap-shop-order
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: zhangcheng
+    password: 123456
+    virtual-host: /
+    connection-timeout: 15000
+    publisher-confirms: true
+    publisher-returns: true
+    template:
+      mandatory: true
   datasource:
     url: jdbc:mysql://localhost:3306/cheapshop?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
@@ -70,13 +81,13 @@ spring:
 #       max-idle: 8
 #       min-idle: 0
 
-# server:
-#   port: 8011
-#   tomcat:
-#     uri-encoding: UTF-8
-#   servlet:
-#     session:
-#       timeout: 10
+server:
+ port: 8001
+ tomcat:
+   uri-encoding: UTF-8
+ servlet:
+   session:
+     timeout: 10
 
 # eureka:
 #   client:

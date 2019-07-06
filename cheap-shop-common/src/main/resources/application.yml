@@ -1,7 +1,8 @@
 spring:
   application:
     name: cheap-shop-common
-
+  profiles:
+    active: dev
 server:
   port: 8023
   tomcat:

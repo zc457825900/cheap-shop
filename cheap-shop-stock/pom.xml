@@ -8,10 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.perfect.cheapshop</groupId>
-    <artifactId>cheap-shop-order</artifactId>
+    <artifactId>cheap-shop-stock</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cheap-shop-order</name>
-    <description>Cheap Shop Server</description>
+    <name>cheap-shop-stock</name>
+    <description>Cheap Shop Stock</description>
 
     <dependencies>
         <!--amqp支持-->
@@ -26,33 +26,25 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>com.perfect.cheapshop</groupId>
-            <artifactId>cheap-shop-stock</artifactId>
+            <artifactId>cheap-shop-order</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>-->
+        </dependency>
     </dependencies>
-
-
 
 </project>

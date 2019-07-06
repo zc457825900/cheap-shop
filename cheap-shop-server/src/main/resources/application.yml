@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-cloud-eureka
+    name: cheap-shop-eureka
 
 server:
   port: 8000

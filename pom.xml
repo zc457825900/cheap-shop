@@ -8,6 +8,8 @@
         <module>cheap-shop-common</module>
         <module>cheap-shop-server</module>
         <module>cheap-shop-order</module>
+        <module>cheap-shop-stock</module>
+        <module>cheap-shop-config</module>
     </modules>
     <groupId>com.perfect.cheapshop</groupId>
     <artifactId>cheap-shop</artifactId>

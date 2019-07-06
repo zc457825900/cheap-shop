@@ -1,8 +1,12 @@
 package com.perfect.cheapshop.rest;
 
 
+import com.perfect.cheapshop.service.OrderSender;
 import com.perfect.cheapshop.domain.CsShopOrder;
+import com.perfect.cheapshop.domain.CsShopOrderDetail;
 import com.perfect.cheapshop.dto.CsShopOrderDTO;
+import com.perfect.cheapshop.dto.CsShopOrderDetailDTO;
+import com.perfect.cheapshop.service.ICsShopOrderDetailService;
 import com.perfect.cheapshop.service.ICsShopOrderService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -24,6 +28,12 @@ import java.util.List;
 public class CsShopOrderController {
     @Autowired
     private ICsShopOrderService iCsShopOrderService;
+
+    @Autowired
+    private ICsShopOrderDetailService iCsShopOrderDetailService;
+
+    @Autowired
+    private OrderSender orderSender;
 
     @GetMapping
     public List<CsShopOrder> getAllOrder(){
@@ -48,13 +58,20 @@ public class CsShopOrderController {
     }
 
     @PostMapping
-    public CsShopOrder createOrder(@RequestParam CsShopOrderDTO csShopOrderDTO)throws Exception{
+    public CsShopOrder createOrder(@RequestParam CsShopOrderDTO csShopOrderDTO, @RequestParam CsShopOrderDetailDTO csShopOrderDetailDTO)throws Exception{
         if(!StringUtils.isEmpty( csShopOrderDTO.getOrderid().toString())){
             throw new Exception("Id不能存在");
         }
         CsShopOrder csShopOrder = new CsShopOrder();
         BeanUtils.copyProperties(csShopOrderDTO,csShopOrder);
+        CsShopOrderDetail csShopOrderDetail = new CsShopOrderDetail();
+        BeanUtils.copyProperties(csShopOrderDetailDTO,csShopOrderDetail);
+        //保存订单
         iCsShopOrderService.save(csShopOrder);
+        //保存订单详情
+        iCsShopOrderDetailService.save(csShopOrderDetail);
+        //mq到库存服务扣减库存
+        orderSender.send(csShopOrderDetail);
         return iCsShopOrderService.getById(csShopOrderDTO.getOrderid());
     }
 

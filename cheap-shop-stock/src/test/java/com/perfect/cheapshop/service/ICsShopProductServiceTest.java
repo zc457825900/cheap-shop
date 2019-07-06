@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-//import com.perfect.cheapshop.mapper.CsShopProductMapper;
+//import mapper.CsShopProductMapper;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -69,6 +69,7 @@ public class ICsShopProductServiceTest {
     @Test
     public void getOne(){
         CsShopProduct csShopProduct = csShopProductMapper.selectById(1L);
+        System.out.println(csShopProduct);
         Assert.assertNotNull(csShopProduct);
     }
 
