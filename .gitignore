@@ -3,4 +3,3 @@ target/
 .idea/
 .project
 .settings
-cheap-shop-config/src/main/resources/application.yml
